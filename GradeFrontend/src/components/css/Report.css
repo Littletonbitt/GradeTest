@@ -1,0 +1,94 @@
+.cool-accordion-item {
+	background: rgba(255,255,255,0.05);
+	backdrop-filter: blur(4px);
+	border-radius: 24px;
+	margin-bottom: 1.25rem;
+	border: none;
+	overflow: hidden;
+	transition: all 0.3s ease;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+          
+.cool-accordion-item:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 16px 28px rgba(0,0,0,0.15);
+}
+          
+.cool-accordion-header {
+	margin: 0;
+}
+          
+.cool-accordion-button {
+	background: linear-gradient(135deg, #1e2a3a 0%, #0f1724 100%);
+	color: #f0f9ff;
+	font-weight: 600;
+	font-size: 1.35rem;
+	padding: 1.2rem 1.8rem;
+	border: none;
+	border-radius: 24px !important;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 4px 12px rgba(0,0,0,0.2);
+	transition: all 0.25s ease;
+	position: relative;
+	letter-spacing: -0.2px;
+}
+          
+.cool-accordion-button:not(.collapsed) {
+	background: linear-gradient(135deg, #2c3e50 0%, #1a2634 100%);
+	color: white;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 24px 24px 0 0 !important;
+}
+          
+.cool-accordion-button:not(.collapsed)::after {
+	transform: rotate(180deg);
+}
+          
+.cool-accordion-button:hover {
+	background: linear-gradient(135deg, #2a3e52 0%, #1f2c3c 100%);
+	cursor: pointer;
+}
+          
+.cool-accordion-body {
+	background: #0f1724e6;
+	backdrop-filter: blur(8px);
+	border-radius: 0 0 24px 24px;
+	padding: 1.5rem 1.8rem;
+	color: #e2e8f0;
+	border-top: 1px solid rgba(255,180,71,0.3);
+	font-size: 1.05rem;
+}
+          
+.cool-link {
+	background: linear-gradient(120deg, #ffb347, #ff8c00);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.2rem 0.5rem;
+	border-radius: 40px;
+	transition: all 0.2s ease;
+	display: inline-block;
+}
+          
+.cool-link:hover {
+	background: #ff8c00;
+	color: white !important;
+	text-decoration: none;
+	box-shadow: 0 0 12px rgba(255,140,0,0.5);
+	transform: scale(1.02);
+}
+          
+.cool-icon {
+	display: inline-block;
+	margin-right: 12px;
+	font-size: 1.7rem;
+	vertical-align: middle;
+	filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.required-field::after {
+	content: " *";
+	color: red;
+	font-weight: bold;
+}

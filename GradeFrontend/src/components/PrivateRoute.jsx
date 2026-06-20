@@ -1,0 +1,12 @@
+import { Navigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
+
+export const PrivateRoute = ({ children }) => {
+	const { user } = useAuth();
+  	return user ? children : <Navigate to="/login" />;
+};
+
+export const AdminRoute = ({ children }) => {
+	const { user } = useAuth();
+  	return user?.role === 'Admin' ? children : <Navigate to="/forbidden" />;
+};

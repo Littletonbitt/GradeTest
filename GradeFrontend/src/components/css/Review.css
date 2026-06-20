@@ -1,0 +1,109 @@
+.flame-gradient-text {
+	background: linear-gradient(135deg, #2c7da0, #1e4a6b);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: 800;
+}
+
+.linear-gradient-flame {
+	background: linear-gradient(105deg, #2c7da0, #1f5e7e);
+	border: none;
+	color: white;
+}
+
+.linear-gradient-flame:hover {
+	background: linear-gradient(105deg, #1f5e7e, #164a64);
+	transform: scale(0.98);
+}
+
+body {
+	background: #f8f9fc;
+}
+
+footer a {
+	transition: color 0.2s;
+}
+
+footer a:hover {
+	color: #2c7da0 !important;
+}
+
+.rating-stars {
+	color: #ffc107;
+}
+
+.review-card {
+	border-radius: 1.25rem;
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.review-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 20px 30px -12px rgba(0,0,0,0.1);
+}
+
+.habit-badge {
+	background: rgba(44,125,160,0.1);
+	color: #1e4a6b;
+	padding: 0.25rem 0.75rem;
+	border-radius: 2rem;
+	font-size: 0.75rem;
+	margin-right: 0.5rem;
+	display: inline-block;
+	margin-bottom: 0.25rem;
+}
+
+.progress-circle-review {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: conic-gradient(#2c7da0 75%, #e2e8f0 0);
+	color: #1e293b;
+	font-weight: bold;
+}
+
+.progress-highlight {
+	background: conic-gradient(#2c7da0 100%, #e2e8f0 0);
+}
+
+.photos-review {
+	font-size: 2.5rem;
+	color: #94a3b8;
+}
+
+.required-field:after {
+	content: " *";
+	color: #dc2626;
+}
+
+.user-avatar {
+	width: 48px;
+	height: 48px;
+	background: #e2e8f0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.btn-outline-primary.active {
+	background-color: #2c7da0;
+	border-color: #2c7da0;
+	color: white;
+}
+
+.btn-outline-primary {
+	border-color: #2c7da0;
+	color: #2c7da0;
+}
+
+.btn-outline-primary:hover {
+	background-color: #2c7da0;
+	color: white;
+}
+
+

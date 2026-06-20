@@ -1,0 +1,73 @@
+.flame-gradient-text {
+	background: linear-gradient(135deg, #2c7da0, #1e4a6b);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: 800;
+}
+
+.linear-gradient-flame {
+	background: linear-gradient(105deg, #2c7da0, #1f5e7e);
+	border: none;
+	color: white;
+}
+
+.linear-gradient-flame:hover {
+	background: linear-gradient(105deg, #1f5e7e, #164a64);
+	transform: scale(0.98);
+}
+
+.form-signup {
+	width: 100%;
+	max-width: 480px;
+	padding: 1rem;
+}
+
+.btn-primary {
+	background: linear-gradient(105deg, #2c7da0, #1f5e7e);
+	border: none;
+}
+
+.btn-primary:hover {
+	background: linear-gradient(105deg, #1f5e7e, #164a64);
+	transform: scale(0.98);
+}
+
+.btn-bd-primary {
+	--bd-violet-bg: #2c7da0;
+	--bd-violet-rgb: 44, 125, 160;
+	--bs-btn-font-weight: 600;
+	--bs-btn-color: var(--bs-white);
+	--bs-btn-bg: var(--bd-violet-bg);
+	--bs-btn-border-color: var(--bd-violet-bg);
+	--bs-btn-hover-color: var(--bs-white);
+	--bs-btn-hover-bg: #236b8a;
+	--bs-btn-hover-border-color: #236b8a;
+	--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+	--bs-btn-active-color: var(--bs-btn-hover-color);
+	--bs-btn-active-bg: #1a5a75;
+	--bs-btn-active-border-color: #1a5a75;
+}
+
+.bd-mode-toggle {
+	z-index: 1500;
+}
+
+.dropdown-menu {
+	--bs-dropdown-link-active-bg: #2c7da0;
+}
+
+a {
+	color: #2c7da0;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: #1e4a6b;
+}
+
+.password-strength {
+	font-size: 0.75rem;
+	margin-top: 0.25rem;
+}
+

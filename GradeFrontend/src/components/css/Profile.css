@@ -1,0 +1,158 @@
+body {
+ 	background: #f8f9fc;
+}
+
+.navbar-brand i {
+	color: #2c7da0;
+}
+
+.flame-gradient-text {
+	background: linear-gradient(135deg, #2c7da0, #1e4a6b);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: 800;
+}
+
+.btn-primary-custom {
+	background: linear-gradient(105deg, #2c7da0, #1f5e7e);
+	border: none;
+	color: white;
+}
+
+.btn-primary-custom:hover {
+	background: linear-gradient(105deg, #1f5e7e, #164a64);
+	transform: scale(0.98);
+}
+
+.user-avatar {
+	width: 36px;
+	height: 36px;
+	background: #e2e8f0;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2c7da0;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.today-test {
+	background: white;
+	border-radius: 1.5rem;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+	padding: 2rem;
+	margin-bottom: 2.5rem;
+	border: 1px solid rgba(0,0,0,0.04);
+	transition: transform 0.2s;
+}
+
+.today-test:hover {
+	transform: translateY(-3px);
+}
+
+.today-test .test-name {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #1e4a6b;
+}
+
+.today-test .test-desc {
+	color: #4a6a7a;
+}
+
+.test-card {
+	border-radius: 1.25rem;
+	overflow: hidden;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+	transition: transform 0.2s, box-shadow 0.2s;
+	background: white;
+	height: 100%;
+}
+
+.test-card:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+.test-card .card-top {
+	padding: 1.5rem 1rem 1rem;
+	color: white;
+	min-height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.test-card .card-top h5 {
+	font-weight: 700;
+	margin-bottom: 0.25rem;
+}
+
+.test-card .card-top small {
+	opacity: 0.85;
+}
+
+.test-card .card-body {
+	padding: 1rem 1rem 1.2rem;
+}
+
+.test-card .card-body .description {
+	font-size: 0.9rem;
+	color: #4a5a6a;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.fab {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	background: linear-gradient(105deg, #2c7da0, #1f5e7e);
+	color: white;
+	border: none;
+	box-shadow: 0 6px 16px rgba(44,125,160,0.4);
+	font-size: 1.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s;
+	z-index: 1000;
+}
+
+.fab:hover {
+	transform: scale(1.08);
+	background: linear-gradient(105deg, #1f5e7e, #164a64);
+}
+
+.dropdown-menu {
+	border-radius: 1rem;
+	border: 0;
+	box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.dropdown-item:hover {
+	background: rgba(44,125,160,0.06);
+}
+
+.dropdown-item i {
+	margin-right: 0.5rem;
+	color: #2c7da0;
+}
+
+.dropdown-item.text-danger i {
+	color: #dc2626;
+}
+
+@media (max-width: 768px) {
+	.today-test .test-name {
+		font-size: 1.4rem;
+	}
+}
+
